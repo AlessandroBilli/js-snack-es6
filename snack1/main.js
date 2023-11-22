@@ -39,3 +39,20 @@ const bici = [
   
   console.log(`La bici più leggera è "${Nome}" con un peso di ${Peso} kg.`);
   
+
+
+  const listaBici = document.createElement('ul');
+
+
+bici.forEach(bici => {
+    const listItem = document.createElement('li');
+    listItem.textContent = `${bici.Nome} - Peso: ${bici.Peso}`;
+    listaBici.appendChild(listItem);
+});
+
+
+document.body.appendChild(listaBici);
+
+const risultato = document.createElement('h3');
+risultato.textContent = `La bici più leggera è "${Nome}" con un peso di ${Peso} kg.`;
+document.body.appendChild(risultato);
