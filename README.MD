@@ -31,3 +31,9 @@ La bici con il peso minore è la "Furia Argentea" con un peso di 8 kg.
 Queste informazioni verranno ottenute attraverso l'utilizzo di destructuring e template literal per individuare la bici con il peso minore nell'array di bici fornito.
 
 
+# SNACK2
+
+## Descrizione
+
+
+Il codice JavaScript presente in questo progetto crea un array di oggetti rappresentanti squadre di calcio con proprietà come nome, punti fatti e falli subiti. Successivamente, vengono generati numeri casuali per i punti fatti e i falli subiti di ciascuna squadra. Infine, viene creato un nuovo array contenente solo nomi, punti e falli subiti utilizzando la destrutturazione.
