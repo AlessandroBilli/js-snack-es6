@@ -23,3 +23,19 @@ const bici = [
     },
  
 ];
+
+
+
+  
+  let biciLeggera = bici[0]; 
+  
+  for (let i = 1; i < bici.length; i++) {
+    if (bici[i].peso < biciLeggera.Peso) {
+      biciLeggera = bici[i];
+    }
+  }
+  
+  const { Nome, Peso } = biciLeggera;
+  
+  console.log(`La bici più leggera è "${Nome}" con un peso di ${Peso} kg.`);
+  
