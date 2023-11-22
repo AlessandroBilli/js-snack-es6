@@ -16,7 +16,7 @@ squadre.forEach(squadra => {
     squadra.falliSubiti = generaNumeroCasuale(0, 30);
 });
 
-const squadreNomiFalli = squadre.map(({ nome, falliSubiti, puntiFatti }) => ({ nome, falliSubiti, puntiFatti }));
+const squadreNomiFalliPunti = squadre.map(({ nome, falliSubiti, puntiFatti }) => ({ nome, falliSubiti, puntiFatti }));
 
-console.log("Squadre con nomi e falli subiti:");
-console.log(squadreNomiFalli);
+console.log("Statistiche squadre:");
+console.log(squadreNomiFalliPunti);
